@@ -1,9 +1,13 @@
 import EditableTree from "./pages/editable-tree";
+import DialogPage from "./pages/dialog";
 
 function App() {
   return (
     <div className="App">
-      <EditableTree />
+      <DialogPage />
+      <br />
+      <br />
+      <EditableTree />  
     </div>
   );
 }
